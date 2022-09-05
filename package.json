@@ -1,8 +1,59 @@
 {
-  "name": "package.json",
+  "name": "readmes",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "ansi-escapes": "^5.0.0",
+    "chalk": "^5.0.1",
+    "chardet": "^0.7.0",
+    "buffer": "^6.0.3",
+    "ansi-styles": "^6.1.0",
+    "cli-spinners": "^2.7.0",
+    "base64-js": "^1.5.1",
+    "ansi-regex": "^6.0.1",
+    "emoji-regex": "^9.2.2",
+    "bl": "^5.0.0",
+    "cli-width": "^4.0.0",
+    "defaults": "^1.0.3",
+    "cli-cursor": "^4.0.0",
+    "external-editor": "^3.1.0",
+    "escape-string-regexp": "^5.0.0",
+    "eastasianwidth": "^0.2.0",
+    "ieee754": "^1.2.1",
+    "figures": "^5.0.0",
+    "clone": "^1.0.4",
+    "inquirer": "^9.1.1",
+    "iconv-lite": "^0.4.24",
+    "inherits": "^2.0.4",
+    "lodash": "^4.17.21",
+    "is-unicode-supported": "^1.2.0",
+    "log-symbols": "^5.1.0",
+    "is-interactive": "^2.0.0",
+    "mute-stream": "^0.0.8",
+    "mimic-fn": "^2.1.0",
+    "os-tmpdir": "^1.0.2",
+    "onetime": "^5.1.2",
+    "ora": "^6.1.2",
+    "readable-stream": "^3.6.0",
+    "restore-cursor": "^4.0.0",
+    "string-width": "^5.1.2",
+    "safer-buffer": "^2.1.2",
+    "rxjs": "^7.5.6",
+    "run-async": "^2.4.1",
+    "signal-exit": "^3.0.7",
+    "string_decoder": "^1.3.0",
+    "through": "^2.3.8",
+    "safe-buffer": "^5.2.1",
+    "strip-ansi": "^7.0.1",
+    "type-fest": "^1.4.0",
+    "tslib": "^2.4.0",
+    "tmp": "^0.0.33",
+    "util-deprecate": "^1.0.2",
+    "wcwidth": "^1.0.1",
+    "wrap-ansi": "^8.0.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,8 +66,5 @@
   "bugs": {
     "url": "https://github.com/dillonpatino/Challenge-9/issues"
   },
-  "homepage": "https://github.com/dillonpatino/Challenge-9#readme",
-  "dependencies": {
-    "inquirer": "^9.1.1"
-  }
+  "homepage": "https://github.com/dillonpatino/Challenge-9#readme"
 }
