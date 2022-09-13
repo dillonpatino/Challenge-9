@@ -32,7 +32,49 @@ const questions = [
         }
         }
     },
-
+    {
+        type: "input",
+        name: "Installation",
+        message: "Enter any installation instructions.",
+    },
+    {
+        type: "input",
+        name: "Usage",
+        message: "How would a client use this project/application?",
+    },
+    {
+        type: "input",
+        name: "Contributions",
+        message: "Enter any/all contributing guidelines for this project.",
+    },
+    {
+        type: "input",
+        name: "Tests",
+        message: "Which tests are included in this project?",
+    },
+    {
+        type: "checkbox",
+        name: "License",
+        message: "Enter any licenses used on this project.",
+        choices: ['Apache', 'BSD', 'ISC', 'MIT'],
+        validate: licenselength => {
+            if (licenselength.length <= 1) {
+                return true;
+            } else {
+                return "Select a license.";
+            }
+        }
+    },
+    {
+        type: "input",
+        name: "GitHub",
+        message: "Enter your GitHub username.",
+    },
+    {
+        type: "input",
+        name: "Email",
+        message: "Enter your email address.",
+    },
 ];
 
 // TODO: Create a function to write README file

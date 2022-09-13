@@ -18,13 +18,34 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answer) {
+
+
+
+
     let readmeText = "";
     const title = answer.Title;
     readmeText += `# ${title}\n` 
-
+    
+    
     const description = answer.Description;
     readmeText += `---\n`
     readmeText += `${description}\n`
+
+    const installation = answer.Installation;
+    readmeText += `---\n`
+    readmeText += `${installation}\n`
+
+    const usage = answer.Usage;
+    readmeText += `---\n`
+    readmeText += `${usage}\n`
+
+    const contribution = answer.Contributions;
+    readmeText += `---\n`
+    readmeText += `${contribution}\n`
+
+    const test = answer.Tests;
+    readmeText += `---\n`
+    readmeText += `${test}\n`
   return readmeText
 
 }
