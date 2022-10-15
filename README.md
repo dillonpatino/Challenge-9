@@ -1,11 +1,11 @@
-# Test
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)# READMe Generator
 ---
-Example of creating a readme generator using only javascript and node.js
+AS A developer I WANT to create a README Generator SO THAT I can quickly create a professional README for a new project
 ---
-First you enter NPM i in the terminal to load all packages required
+Install all packages using “npm install”
 ---
-Enter npm i into the terminal, and enter all info asked for inside of the terminal when prompted.
+Start by running the terminal, installing packages, and typing “node index.js” and answering all the questions in the terminal when prompted
 ---
-na
+
 ---
-na
+
