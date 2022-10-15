@@ -1,11 +1,11 @@
-# a
+# Test
 ---
-b
+Example of creating a readme generator using only javascript and node.js
 ---
-c
+First you enter NPM i in the terminal to load all packages required
 ---
-d
+Enter npm i into the terminal, and enter all info asked for inside of the terminal when prompted.
 ---
-e
+na
 ---
-f
+na
